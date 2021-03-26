@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 211a08da5aeb1c544a41de7c79a98518
+timeCreated: 1612578533
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: Czw
+    100004: Czw_Body
+    100006: Czw_Eyebrow001
+    100008: Czw_High-poly
+    100010: Czw_Male_casualsuit01
+    100012: Czw_Shoes01
+    100014: Czw_Short04
+    100016: Czw_Teeth_base
+    100018: Head
+    100020: Hips
+    100022: Lamp
+    100024: LeftArm
+    100026: LeftFingerBase
+    100028: LeftFoot
+    100030: LeftForeArm
+    100032: LeftHand
+    100034: LeftHandFinger1
+    100036: LeftLeg
+    100038: LeftShoulder
+    100040: LeftToeBase
+    100042: LeftUpLeg
+    100044: LHipJoint
+    100046: LowerBack
+    100048: LThumb
+    100050: Neck
+    100052: Neck1
+    100054: //RootNode
+    100056: RHipJoint
+    100058: RightArm
+    100060: RightFingerBase
+    100062: RightFoot
+    100064: RightForeArm
+    100066: RightHand
+    100068: RightHandFinger1
+    100070: RightLeg
+    100072: RightShoulder
+    100074: RightToeBase
+    100076: RightUpLeg
+    100078: RThumb
+    100080: Spine
+    100082: Spine1
+    100084: yalin
+    100086: yalin001
+    100088: zheng
+    400000: Cylinder001
+    400002: Czw
+    400004: Czw_Body
+    400006: Czw_Eyebrow001
+    400008: Czw_High-poly
+    400010: Czw_Male_casualsuit01
+    400012: Czw_Shoes01
+    400014: Czw_Short04
+    400016: Czw_Teeth_base
+    400018: Head
+    400020: Hips
+    400022: Lamp
+    400024: LeftArm
+    400026: LeftFingerBase
+    400028: LeftFoot
+    400030: LeftForeArm
+    400032: LeftHand
+    400034: LeftHandFinger1
+    400036: LeftLeg
+    400038: LeftShoulder
+    400040: LeftToeBase
+    400042: LeftUpLeg
+    400044: LHipJoint
+    400046: LowerBack
+    400048: LThumb
+    400050: Neck
+    400052: Neck1
+    400054: //RootNode
+    400056: RHipJoint
+    400058: RightArm
+    400060: RightFingerBase
+    400062: RightFoot
+    400064: RightForeArm
+    400066: RightHand
+    400068: RightHandFinger1
+    400070: RightLeg
+    400072: RightShoulder
+    400074: RightToeBase
+    400076: RightUpLeg
+    400078: RThumb
+    400080: Spine
+    400082: Spine1
+    400084: yalin
+    400086: yalin001
+    400088: zheng
+    2300000: Cylinder001
+    2300002: yalin
+    2300004: yalin001
+    3300000: Cylinder001
+    3300002: yalin
+    3300004: yalin001
+    4300000: Cylinder001
+    4300002: yalin
+    4300004: Czw_Shoes01
+    4300006: Czw_Short04
+    4300008: Czw_High-poly
+    4300010: Czw_Eyebrow001
+    4300012: Czw_Teeth_base
+    4300014: Czw_Body
+    4300016: Czw_Male_casualsuit01
+    4300018: yalin001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Czw_Body
+    13700002: Czw_Eyebrow001
+    13700004: Czw_High-poly
+    13700006: Czw_Male_casualsuit01
+    13700008: Czw_Shoes01
+    13700010: Czw_Short04
+    13700012: Czw_Teeth_base
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
