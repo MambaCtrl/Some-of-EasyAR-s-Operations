@@ -7,7 +7,7 @@
 
 ## readme  
 >**具体步骤：** 
->###**一.线上播放视频**   
+>### **一.线上播放视频**   
 >**1.登录easyconnect和winscp，将视频上传到线上**  
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
