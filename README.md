@@ -14,7 +14,6 @@
 >using UnityEngine;
 >using EasyAR;
 >public class SampleImageTargetBehaviour :ImageTargetBehaviour {
- 
         protected override void Awake()
         {
             base.Awake();
