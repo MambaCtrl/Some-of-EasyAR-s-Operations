@@ -11,17 +11,17 @@
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
 >```SampleImageTargetBehaviour.cs 
->using UnityEngine;  
->using EasyAR;  
+>using UnityEngine;    
+>using EasyAR;    
 >public class SampleImageTargetBehaviour :ImageTargetBehaviour {  
->      protected override void Awake()  
+>      protected override void Awake()   
 >      {  
->          base.Awake();  
->          TargetFound += OnTargetFound;
->          TargetLost += OnTargetLost;
->          TargetLoad += OnTargetLoad;
->          TargetUnload += OnTargetUnload;
->      }
+>          base.Awake();    
+>          TargetFound += OnTargetFound;  
+>          TargetLost += OnTargetLost;  
+>          TargetLoad += OnTargetLoad;  
+>          TargetUnload += OnTargetUnload;  
+>      }  
 >
 >      void OnTargetFound(TargetAbstractBehaviour behaviour)
 >      {
@@ -46,20 +46,19 @@
 >```  
 >**4.ImageTarget-URL_Video右键新建plane用于播放视频,再把EasyAR->Scripts->VideoPlayerBehaviour.cs这个脚本挂载到Plane**    
 >**5.修改第3步代码如下**  
->```using UnityEngine;
->using EasyAR;
-
->public class SampleImageTargetBehaviour : ImageTargetBehaviour
->{
->    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";
->    protected override void Awake()
->    {
->        base.Awake();
->        TargetFound += OnTargetFound;
->       TargetLost += OnTargetLost;
->        TargetLoad += OnTargetLoad;
->        TargetUnload += OnTargetUnload;
->    }
+>```using UnityEngine;  
+>using EasyAR;  
+>public class SampleImageTargetBehaviour : ImageTargetBehaviour  
+>{  
+>    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";  
+>    protected override void Awake()  
+>    {  
+>        base.Awake();  
+>        TargetFound += OnTargetFound;  
+>       TargetLost += OnTargetLost;  
+>        TargetLoad += OnTargetLoad;  
+>        TargetUnload += OnTargetUnload;  
+>    }  
 >
 >    void OnTargetFound(TargetAbstractBehaviour behaviour)
 >    {
