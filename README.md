@@ -3,7 +3,7 @@
 >**要求：**  
 >**1.untiy版本：2017.1.1**  
 >**2.EasyAR SDK 2.0**  
->3.**下载winscp，通过winscp将视频位置放在学校vr招生网站上[winscp](https://winscp.net/eng/docs/lang:chs)**
+>3.**下载winscp，通过winscp[winscp下载](https://winscp.net/eng/docs/lang:chs)将视频位置放在学校vr招生网站上**
 
 ## readme  
 >**具体步骤：**  
