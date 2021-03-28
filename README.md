@@ -10,7 +10,7 @@
 >**1.登录easyconnect和winscp，将视频上传到线上**  
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
->```**SampleImageTargetBehaviour.cs**  
+>```SampleImageTargetBehaviour.cs 
 >using UnityEngine;
 >using EasyAR;
 >public class SampleImageTargetBehaviour :ImageTargetBehaviour {
@@ -43,5 +43,8 @@
 >          Debug.Log("Unload target (" + status + "): " + Target.Id + " (" + Target.Name + ") " + " -> " + tracker);
 >      }
 >}
-```
-
+```  
+>**4.ImageTarget-URL_Video右键新建plane用于播放视频**  
+>
+>
+>
