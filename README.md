@@ -6,7 +6,8 @@
 >**3.[下载winscp](https://winscp.net/eng/docs/lang:chs)，通过winscp将视频位置放在学校vr招生网站上**
 
 ## readme  
->**具体步骤：**  
+>**具体步骤：** 
+>###**一.线上播放视频**   
 >**1.登录easyconnect和winscp，将视频上传到线上**  
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
@@ -50,7 +51,7 @@
 >using EasyAR;  
 >public class SampleImageTargetBehaviour : ImageTargetBehaviour  
 >{  
->    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";  
+>    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";  // 我的视频地址
 >    protected override void Awake()  
 >    {  
 >        base.Awake();  
