@@ -3,6 +3,8 @@
 >**1.untiy版本：2017.1.1**  
 >**2.EasyAR SDK 2.0**  
 
-###readme
+##readme  
+>具体步骤：
+>1.
 
 
