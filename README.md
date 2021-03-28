@@ -7,7 +7,7 @@
 
 ## readme  
 >**具体步骤：** 
->### **一.线上播放视频**   
+### **一.线上播放视频**   
 >**1.登录easyconnect和winscp，将视频上传到线上**  
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
@@ -106,7 +106,7 @@
 >    }
 >}
 >```
->### **二.手控制模型动画缩放旋转等**  
+### **二.手控制模型动画缩放旋转等**  
 >新建MyOperation.cs附在object上（一定要附在物体上不要附在camera上）  
 >```using UnityEngine;
 >using System.Collections;
