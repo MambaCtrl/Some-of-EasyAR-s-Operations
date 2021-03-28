@@ -11,10 +11,10 @@
 >**2.将ImageTarget预制体拖入到Hierarchy面板中去，并重命名为"ImageTarget-URL_Video"**
 >**3.新建SampleImageTargetBehaviour.cs脚本并附在ImageTarget-URL_Video上**  
 >'''SampleImageTargetBehaviour.cs
-using UnityEngine;
-using EasyAR;
- 
-public class SampleImageTargetBehaviour :ImageTargetBehaviour {
+
+>using UnityEngine;
+>using EasyAR;
+>public class SampleImageTargetBehaviour :ImageTargetBehaviour {
  
         protected override void Awake()
         {
