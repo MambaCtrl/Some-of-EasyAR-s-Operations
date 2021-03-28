@@ -51,7 +51,7 @@
 >using EasyAR;  
 >public class SampleImageTargetBehaviour : ImageTargetBehaviour  
 >{  
->    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";  // 我的视频地址
+>    private string video = @"https://lq.hdu.edu.cn/czw/video.mp4";                                 // 我的视频地址
 >    protected override void Awake()  
 >    {  
 >        base.Awake();  
@@ -85,17 +85,17 @@
 >    {
 >        GameObject subGameObject = Instantiate(Resources.Load("Plane", typeof(GameObject))) as GameObject;
 >        subGameObject.transform.parent = this.transform;
->        subGameObject.transform.localPosition = new Vector3(0, 0.225f, 0);//位置，数值可以自己设置
->        subGameObject.transform.localRotation = new Quaternion();//旋转，数值可以自己设置
->        subGameObject.transform.localScale = new Vector3(0.8f, 0.45f, 0.45f);//缩放，数值可以自己设置
+>        subGameObject.transform.localPosition = new Vector3(0, 0.225f, 0);                       // 位置，数值可以自己设置
+>        subGameObject.transform.localRotation = new Quaternion();                                // 旋转，数值可以自己设置
+>        subGameObject.transform.localScale = new Vector3(0.8f, 0.45f, 0.45f);                    // 缩放，数值可以自己设置
 >
 >        VideoPlayerBaseBehaviour videoPlayer = subGameObject.GetComponent<VideoPlayerBaseBehaviour>();
 >        if (videoPlayer)
 >        {
 >            videoPlayer.Storage = StorageType.Absolute;
 >            videoPlayer.Path = video;
->            videoPlayer.EnableAutoPlay = true;//自动播放
->            videoPlayer.EnableLoop = true;//循环播放
+>            videoPlayer.EnableAutoPlay = true;                                                   // 自动播放
+>            videoPlayer.EnableLoop = true;                                                       // 循环播放
 >            videoPlayer.Open();
 >        }
 >    }
